@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <title>Profile - page</title>
+</head>
+
+<body>
+
+    <section class="container">
+        <h1 class="title">HNDx - Program</h1>
+        <div class="card">
+            <div class="image-container"><img data-testid="slackDisplayImage"
+                    src="./WhatsApp Image 2023-09-08 at 09.23.10.jpeg" alt="jsboy"></div>
+            <h1 class="name">Roland Odenore</h1>
+            <div>
+                <div>
+                    <span>Username</span>
+                    <span data-testid="slackUserName">jsboy</span>
+                </div>
+                <div>
+                    <span>Current Day</span>
+                    <span class="day" data-testid="currentDayOfTheWeek"></span>
+                </div>
+                <div>
+                    <span>Current UTC Time</span>
+                    <span class="time" data-testid="currentUTCTime"></span>
+                </div>
+                <div>
+                    <span>Track</span>
+                    <span data-testid="myTrack">FrontEnd</span>
+                </div>
+            </div>
+            <div><a data-testid="githubURL" href="https://google.com" target="_blank" rel="noopener noreferrer">Go to
+                    Github</a></div>
+        </div>
+    </section>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
